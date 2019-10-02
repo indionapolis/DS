@@ -18,17 +18,17 @@ class ClientListener(Thread):
         data = self.sock.recv(1024).decode().split('\0')
         filename_original = data[0]
         filename = filename_original
+
         print(os.listdir('.'))
-        print(sys.path)
+        # check uniqueness of the file name
+        counter = 0
         while True:
-            counter = 0
             if os.path.exists(filename):
                 filename = f'{filename_original.split(".")[0]}_copy{counter}.{ filename_original.split(".")[1]}'
+                counter += 1
             else:
                 break
-            counter += 1
 
-        print(filename)
         data = data[1].encode()
 
         # prepare new file
