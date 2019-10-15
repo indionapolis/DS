@@ -1,0 +1,14 @@
+h1 {
+    color: green;
+    font-family: 'Fascinate Inline', cursive;
+}
+h3 {
+    color: green;
+}
+body {
+    background-color: rgba(0,244,0,0.3);
+    font-family: 'Sunflower', sans-serif;
+}
+.title {
+  text-align: center;
+}
