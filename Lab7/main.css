@@ -5,10 +5,26 @@ h1 {
 h3 {
     color: green;
 }
+h4 {
+    color: Purple;
+}
 body {
     background-color: rgba(0,244,0,0.3);
     font-family: 'Sunflower', sans-serif;
 }
 .title {
   text-align: center;
+}
+pre {
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+img {
+  height: auto;
+  width: 80%;
+  margin: 10px;
+  border-radius: 10px;
 }
