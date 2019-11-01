@@ -4,7 +4,7 @@
 ![](src/before.png)
 
 ### rs.status()
-
+```
 rs0:PRIMARY> rs.status()
 {
 	"set" : "rs0",
@@ -151,9 +151,11 @@ rs0:PRIMARY> rs.status()
 	},
 	"operationTime" : Timestamp(1572598224, 1)
 }
+```
 
 ### rs.config()
 
+```
 rs0:PRIMARY> rs.config()
 {
 	"_id" : "rs0",
@@ -218,6 +220,7 @@ rs0:PRIMARY> rs.config()
 		"replicaSetId" : ObjectId("5dbbdb098614c89203119d8e")
 	}
 }
+```
 
 ## After
 
@@ -226,6 +229,7 @@ rs0:PRIMARY> rs.config()
 
 ### rs.status()
 
+```
 rs0:PRIMARY> rs.status()
 {
 	"set" : "rs0",
@@ -373,9 +377,11 @@ rs0:PRIMARY> rs.status()
 	},
 	"operationTime" : Timestamp(1572598613, 1)
 }
+```
 
 ### rs.config()
 
+```
 rs0:PRIMARY> rs.config()
 {
 	"_id" : "rs0",
@@ -440,3 +446,4 @@ rs0:PRIMARY> rs.config()
 		"replicaSetId" : ObjectId("5dbbdb098614c89203119d8e")
 	}
 }
+```
